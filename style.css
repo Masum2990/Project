@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo1{
+  width: 50px;
+}
+
+body{
+  background: #F2F9FF;
+  font-family: 'Cantata One', serif;
+}
+header{
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #5693BF;
+}
+.working{
+  max-width: 700px;
+  height: 400px;
+  margin-top: 20%;
+  box-shadow: 2px 2px 4px black,-2px -2px 4px black; 
+}
+.content-left{
+  width: 28%;
+}
+main h1{
+  font-size: 30px;
+  margin-top: 30%;
+}
+main h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffd700;
+  margin: 15px 0;
+  
+}
+main p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 20px 0;
+}
+.ctn{
+  padding: 15px 30px;
+  background:#F17999 ;
+  color: #ffffff;
+  font-weight: 800;
+  box-shadow: 2px 2px 4px black;
+  cursor: pointer;
+  margin-top: 30px;
+  
+}
+.btn{
+  padding: 10px 20px;
+  background:#F17999 ;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  border-radius: 20px;
+  
+}
+.content-left button:hover{
+  background: #5693BF;
+
+  transition: 0.3s;
+  text-shadow: 2px 2px 4px #000000;
+}
+.content-right img:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
